@@ -1,0 +1,16 @@
+{
+  "name": "utils",
+  "version": "0.0.0",
+  "private": true,
+  "main":"dist/index.js",
+  "types":"dist/index.d.ts",
+  "scripts": {
+    "dev": "echo 'Add dev script here'",
+    "build": "rm -rf ./dist && tsc",
+    "test": "echo 'Add test script here'",
+    "lint": "echo 'Add lint script here'"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
